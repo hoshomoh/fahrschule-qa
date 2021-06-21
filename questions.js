@@ -5,6 +5,7 @@ export const questions = [
     answer: "15",
     answer_in: "meters",
     explanation: "Reaction distance is (speed)/10 * 3. That means at 50km/h, reaction distance is (50)/10 * 3 = 15 meters",
+    tag: ['number', 'formular'],
   },
 ];
 
