@@ -7,6 +7,14 @@ export const questions = [
     explanation: "Reaction distance is (speed)/10 * 3. That means at 50km/h, reaction distance is (50)/10 * 3 = 15 meters",
     tag: ['number', 'formular'],
   },
+  {
+    question: "What is the maximum speed you are allowed to drive a car on roads with one marked lane for each direction outside of a built up area?",
+    type: "string",
+    answer: "100",
+    answer_in: "km/h",
+    explanation: "For vehicles up tp 3.5tonnes of gross vehicle weight and without a trailer, the maximum speed limit is 100km/h.",
+    tag: ['number'],
+  },
 ];
 
 export default questions;
