@@ -15,6 +15,14 @@ export const questions = [
     explanation: "For vehicles up tp 3.5tonnes of gross vehicle weight and without a trailer, the maximum speed limit is 100km/h.",
     tag: ['number'],
   },
+  {
+    question: "What is the maximum speed a truck with a permissible total mass of 3.0tonnes and a trailer may ne driven on autobahn?",
+    type: "string",
+    answer: "80",
+    answer_in: "km/h",
+    explanation: "For vehicles up tp 3.5tonnes of gross vehicle weight and with a trailer, the maximum speed limit is 80km/h on autobahns.",
+    tag: ['number'],
+  },
 ];
 
 export default questions;
